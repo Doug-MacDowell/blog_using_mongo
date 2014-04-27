@@ -13,6 +13,6 @@ class Post
   validates :title, presence: true
   validates :title, uniqueness: { conditions: -> { where(deleted_at: nil) } }
 
- # embeds_many :comments
+  embeds_many :comments
 
 end
