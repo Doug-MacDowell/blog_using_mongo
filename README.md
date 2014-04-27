@@ -1,9 +1,9 @@
 
 # Blog Using Mongo
 
-This is a basic blog site built using Rails 4.0.2 and Mongoid 4.0.0 (beta1).
+This is a basic blog site built using Rails 4.1 and Mongoid 4.0.0 (beta1).
 
-The main feature is a Posts page, and comments can be submitted on posts.
+The only feature is a basic Posts page, where posts can be created, viewed, edited, or destoyed.
 
 ### Author:  Doug MacDowell
 
