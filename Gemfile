@@ -29,3 +29,6 @@ end
 # Added Mongo-related gems
 gem 'mongoid', '~> 4.0.0.beta1', github: 'mongoid/mongoid'
 gem 'bson_ext'
+
+# Mongoid 4 needs a gem to support paranoia
+gem 'mongoid-paranoia', github: 'simi/mongoid-paranoia'
