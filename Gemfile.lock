@@ -8,6 +8,13 @@ GIT
       origin (~> 2.1)
       tzinfo (>= 0.3.37)
 
+GIT
+  remote: git://github.com/simi/mongoid-paranoia.git
+  revision: 4d9faf35b336e25619629b9e6514ff61bee169d6
+  specs:
+    mongoid-paranoia (0.1)
+      mongoid (> 3)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -135,6 +142,7 @@ DEPENDENCIES
   jbuilder (~> 1.2)
   jquery-rails
   mongoid (~> 4.0.0.beta1)!
+  mongoid-paranoia!
   rails (= 4.1.0)
   sass-rails (~> 4.0.0)
   sdoc

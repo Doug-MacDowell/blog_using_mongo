@@ -2,6 +2,7 @@ class Post
 
   include Mongoid::Document
   include Mongoid::Timestamps
+  include Mongoid::Paranoia
 
 # Paranoia and Versioning frameworks were removed from Mongoid 4.0
 
