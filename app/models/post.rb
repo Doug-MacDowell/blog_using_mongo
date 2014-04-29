@@ -3,8 +3,7 @@ class Post
   include Mongoid::Document
   include Mongoid::Timestamps
 
-# The Paranoia framework throws errors, disabled it
-# include Mongoid::Paranoia
+# Paranoia and Versioning frameworks were removed from Mongoid 4.0
 
   field   :_id, type: String, default: -> { title.to_s.parameterize }
   field :title, type: String
